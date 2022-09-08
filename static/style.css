@@ -64,7 +64,7 @@ html {
 .section-1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 0;
     gap: 20px;
 }
@@ -75,7 +75,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 20px;
     gap: 17px;
 }
 
@@ -184,7 +183,7 @@ html {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
@@ -207,22 +206,22 @@ html {
 .section-3 {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    justify-content: center;
+    margin: 0;
 }
 
 /* Side Left */
 
 .section-3-p {
-    margin: 0 0 0 20px;
-    padding: 0 20px 0 0;
-    width: 1800px;
+    margin: 0;
+    padding: 0;
+    max-width: 1230px;
 }
 
 /* Side Right */
 
 .side-right {
-    padding: 10px 30px;
+    padding: 30px;
     background-color: #ebf3fe;
     align-items: center;
 }
@@ -239,6 +238,7 @@ html {
 .text-p {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -257,6 +257,7 @@ html {
 
 .icons-down {
     margin-top: 40px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: row;
     text-align: center;
